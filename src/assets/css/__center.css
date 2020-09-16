@@ -1,0 +1,15 @@
+.center__area {
+  width: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
+
+.carousel-caption {
+  bottom: 30vh;
+  padding: 40px;
+  background: var(--bs-warning);
+}
