@@ -1,88 +1,88 @@
 @media only screen and (max-width: 1280px) {
-}
-
-@media screen and (orientation: landscape) and (max-device-width: 1280px) {
-  /* html {
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    -webkit-transform-origin: left top;
-    -moz-transform-origin: left top;
-    -ms-transform-origin: left top;
-    -o-transform-origin: left top;
-    transform-origin: left top;
-    width: 320px;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  } */
+  .header {
+    padding: 10px;
+  }
 }
 
 @media only screen and (max-width: 1140px) {
 }
 
-@media screen and (orientation: landscape) and (max-device-width: 1140px) {
-}
-
 @media only screen and (max-width: 1080px) {
-}
+  .topMenu__outer {
+    display: none;
+  }
+  .menuButton {
+    display: block;
+  }
 
-@media screen and (orientation: landscape) and (max-device-width: 1080px) {
+  .header__right {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header__rightTop {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
 }
 
-@media screen and (orientation: landscape) and (max-device-width: 1024px) {
-}
-
 @media only screen and (max-width: 920px) {
-}
-
-@media screen and (orientation: landscape) and (max-device-width: 920px) {
+  .logo1 img {
+    max-width: 40px;
+  }
+  .logo1__info {
+    padding-left: 0.5rem;
+  }
+  .logo1__infoSmall {
+    font-size: 0.75rem;
+  }
+  .logo1__infoBig {
+    font-size: 1.5rem;
+  }
+  .header__time {
+    margin-right: 2rem;
+  }
 }
 
 @media only screen and (max-width: 800px) {
 }
 
-@media screen and (orientation: landscape) and (max-device-width: 800px) {
-}
-
 @media only screen and (max-width: 768px) {
-}
-
-@media screen and (orientation: landscape) and (max-device-width: 768px) {
+  .header__rightTop {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .header__time {
+    margin: 0 0 5px 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-}
-
-@media screen and (orientation: landscape) and (max-device-width: 600px) {
+  .header__right {
+    width: 100%;
+    order: 3;
+  }
+  .header__rightTop {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .header__time {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-  .logo1 img {
-    max-width: 30px;
+  .headerBox i {
+    display: none;
   }
-
-  .logo1 span {
-    font-size: 1.25rem;
-  }
-}
-
-@media screen and (orientation: landscape) and (max-device-width: 480px) {
 }
 
 @media only screen and (max-width: 400px) {
 }
 
-@media screen and (orientation: landscape) and (max-device-width: 400px) {
-}
-
 @media only screen and (max-width: 320px) {
-}
-
-@media screen and (orientation: landscape) and (max-device-width: 320px) {
 }
