@@ -17,6 +17,7 @@ body {
 
 .site__center {
   position: relative;
+  z-index: 500;
 }
 
 .site__footer {
@@ -24,8 +25,7 @@ body {
   margin-top: auto;
 }
 
-.logo1__img {
-  width: 100%;
-  max-width: 300px;
-  display: block;
+.main1 {
+  position: relative;
+  height: 100vh;
 }

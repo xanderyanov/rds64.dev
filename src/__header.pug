@@ -28,4 +28,19 @@ mixin header
           span
           span
           span
+
+mixin videoBg
+  .imgCover(style="background-image: url(assets/img/video/videocover.webp)")
+  video.videocover(loop='', muted='', autoplay='', poster='assets/img/video/videocover.webp')
+    source(src='assets/img/video/videocover.mp4', type='video/mp4')
   
+
+mixin mainBlock
+  .mainBlock__area
+    .mainBlock__outer
+      .mainBlock
+        .mainBlock__slogan Опережая время
+        .mainBlock__arrow.go_to1
+          i.icon-down
+
+
