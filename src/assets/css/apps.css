@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,600,700&display=swap&subset=cyrillic");
 @import "../../../node_modules/sweetalert/dist/sweetalert.css";
-@import "../../../node_modules/nouislider/distribute/nouislider.css";
+/* @import "../../../node_modules/nouislider/distribute/nouislider.css"; */
 
 @import "../../../node_modules/swiper/css/swiper.css";
 @import "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css";
 
-@import "../../../node_modules/bootstrap/dist/css/bootstrap.min";
+/* @import "../../../node_modules/bootstrap/dist/css/bootstrap.min"; */
 
 @import "reset.css";
 
@@ -18,8 +18,8 @@
 @import "__header.css";
 @import "__header-media.css";
 
-@import "__center.css";
-@import "__center-media.css";
+@import "__mainPage.css";
+@import "__mainPage-media.css";
 
 /* @import "__slider1.css";
 @import "__slider1-media.css"; */

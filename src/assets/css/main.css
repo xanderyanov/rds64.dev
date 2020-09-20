@@ -29,3 +29,36 @@ body {
   position: relative;
   height: 100vh;
 }
+
+.title1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.title1 h1 {
+  display: inline-block;
+  position: relative;
+}
+.title1 h1:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -4px;
+  background: var(--bs-warning);
+}
+
+.title1 h2 {
+  display: inline-block;
+  position: relative;
+}
+.title1 h2:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  bottom: -4px;
+  background: var(--bs-warning);
+}
