@@ -88,3 +88,166 @@
   max-width: 830px;
   padding: 30px 10px 30px 0;
 }
+
+/* carousel */
+
+.carousel__area {
+  background: #fff;
+  padding: 3rem 0;
+}
+
+.carousel {
+  position: relative;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.carousel__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.carousel__slide {
+  padding: 2px;
+}
+
+.carousel__slideInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  border: 2px solid var(--bs-warning);
+}
+
+.carousel__slideInner img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel__btn {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: var(--bs-warning);
+  cursor: pointer;
+  transition: all 0.3s;
+  outline: none;
+}
+
+.carousel__btn:hover {
+  color: #000;
+}
+
+.carousel__btn i {
+  font-size: 1rem;
+}
+
+.carousel__btnPrev {
+  left: 0;
+}
+.carousel__btnNext {
+  right: 0;
+}
+
+.title1_carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.carousel__pag {
+  width: 5rem;
+  height: 2rem;
+  position: relative;
+}
+
+/* powerSide */
+
+.powerSide__area {
+  background: var(--bs-warning);
+  padding: 3rem 0;
+}
+
+.powerSide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.powerSide__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.powerSide__item i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.powerSide__item span {
+  color: #000;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.contacts__area {
+  background: #fff;
+  padding: 3rem 0;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contacts__left {
+  width: 40%;
+}
+
+.contacts__text {
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.3;
+}
+
+.contacts__text a {
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.3;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.contacts__text a.bigLink {
+  font-size: 1.5rem;
+  display: block;
+  font-weight: 400;
+}
+.contacts__text a:hover {
+  text-decoration: underline;
+}
+.contacts__text p {
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.3;
+}
+
+.contacts__right {
+  width: 40%;
+}

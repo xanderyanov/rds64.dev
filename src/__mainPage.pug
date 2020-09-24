@@ -40,3 +40,83 @@ mixin about
             p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, illo.
     .about__bg(style="background-image: url(assets/img/bg2.jpg)")
 
+mixin carousel
+  .carousel__area
+    .carousel__outer.w1
+      .title1.title1_carousel 
+          h2 Наши партнеры:
+          .carousel__pag
+            .swiper-button-prev.carousel__btn.carousel__btnPrev
+              i.icon-arr-left1
+            .swiper-button-next.carousel__btn.carousel__btnNext
+              i.icon-arr-right1
+      .carousel
+        .swiper-container.carousel__container
+          .swiper-wrapper.carousel__wrapper
+            .swiper-slide.carousel__slide
+              .carousel__slideInner
+                img(src='assets/img/partners/01.jpg', alt='')
+            .swiper-slide.carousel__slide
+              .carousel__slideInner
+                img(src='assets/img/partners/02.jpg', alt='')
+            .swiper-slide.carousel__slide
+              .carousel__slideInner
+                img(src='assets/img/partners/03.jpg', alt='')
+            .swiper-slide.carousel__slide
+              .carousel__slideInner
+                img(src='assets/img/partners/04.jpg', alt='')
+            .swiper-slide.carousel__slide
+              .carousel__slideInner
+                img(src='assets/img/partners/05.jpg', alt='')
+            .swiper-slide.carousel__slide
+              .carousel__slideInner
+                img(src='assets/img/partners/06.jpg', alt='')
+
+
+mixin powerSide
+  .powerSide__area
+    .powerSide__outer.w1
+      .title1
+          h2 Наши сильные стороны:
+      .powerSide
+        .powerSide__item
+          i.icon-time-management
+          span Строгое соблюдение сроков
+        .powerSide__item
+          i.icon-approval
+          span Четкое согласование проекта
+        .powerSide__item
+          i.icon-project
+          span Собственные проектные разработки
+        .powerSide__item
+          i.icon-tax
+          span Гибкая ценовая политика
+        
+
+mixin contacts
+  .contacts__area
+    .contacts__outer.w1
+      .contacts
+        .contacts__left
+          .title1
+            h3 Ответы на вопросы:
+          .contacts__text.mb2 С удовольствем ответим на все ваши вопросы по телефону +7 (924) 208-60-11. Или просто заполните форму ниже:
+          form.form1(action='#')
+            input.name1(name='name1', type='text', placeholder='Ваше имя')
+            input.phone1(name='phone1', type='text', placeholder='Ваш телефон')
+            input.email1(name='email1', type='text', placeholder='Ваш email')
+            input.work_email1(name='work_email1', type='text', placeholder='Рабочий email')
+            textarea.message1(name='message1', cols='30', rows='10', placeholder='Ваш вопрос:')
+            .form__policy
+              p  *Отправляя сообщение Вы соглашаетесь с условиями <a href='#', target='_blank'> политики конфиденциальности</a>
+            button.submit1(type='submit', name='submit1') Отправить
+        .contacts__right
+          .title1
+            h3 Центральный офис:
+          .contacts__text.mb3 413100, Саратовская область г. Энгельс, ул Нестерова 136 
+          .contacts__text.mb4
+            a.bigLink(href="mailto:info@rds64.ru") info@rds64.ru
+            p телефон: <a href="tel:+79242086011 ">+7 (924) 208-60-11 </a>
+          .title1
+            h4 Хотите у нас работать?
+          .contacts__text Пожалуйста, отправьте резюме и сопроводительное письмо по адресу: <a href="mailto:info@rds64.ru">info@rds64.ru</a>
