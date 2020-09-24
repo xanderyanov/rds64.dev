@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1280px) {
   .header {
-    padding: 10px;
+    padding: 10px 0;
   }
   .imgCover {
     display: block;
@@ -63,6 +63,9 @@
   .header__time {
     margin: 0 0 5px 0;
   }
+  .imgCover {
+    min-width: auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -79,11 +82,20 @@
   .header__time {
     margin: 0;
   }
+  .mainBlock__slogan {
+    font-size: 2.5rem;
+  }
+  .mainBlock__arrow i {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .headerBox i {
     display: none;
+  }
+  .mainBlock__slogan {
+    font-size: 2rem;
   }
 }
 

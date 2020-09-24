@@ -44,13 +44,13 @@ $(function () {
           slidesPerView: 3,
           spaceBetween: 5,
         },
-        480: {
+        // 480: {
+        //   slidesPerView: 2,
+        //   spaceBetween: 5,
+        // },
+        321: {
           slidesPerView: 2,
           spaceBetween: 5,
-        },
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 1,
         },
       },
     });

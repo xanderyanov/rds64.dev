@@ -18,6 +18,9 @@
 @import "__header.css";
 @import "__header-media.css";
 
+@import "__footer.css";
+@import "__footer-media.css";
+
 @import "__mainPage.css";
 @import "__mainPage-media.css";
 
