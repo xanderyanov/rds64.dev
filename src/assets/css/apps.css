@@ -15,6 +15,9 @@
 
 @import "xandercode.css";
 
+@import "__menu.css";
+@import "__menu-media.css";
+
 @import "__header.css";
 @import "__header-media.css";
 
@@ -23,6 +26,9 @@
 
 @import "__mainPage.css";
 @import "__mainPage-media.css";
+
+@import "__page.css";
+@import "__page-media.css";
 
 @import "__form.css";
 

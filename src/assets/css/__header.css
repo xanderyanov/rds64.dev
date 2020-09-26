@@ -5,6 +5,11 @@
   left: 0;
   z-index: 1000;
   width: 100%;
+  /* border-bottom: 1px solid #000; */
+}
+
+.headerPaddingArea {
+  height: 84px;
 }
 
 .header {

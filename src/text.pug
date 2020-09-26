@@ -1,11 +1,11 @@
-- var pageTitle = 'Главная страница'
+- var pageTitle = 'Текстовая страница'
 - var seoKeywords = 'Ключевые слова для страницы'
 - var seoDesc = 'Сео описание для страницы'
 
 include __const
 include __menu
 include __header
-include __mainPage
+include __page
 include __footer
 
 
@@ -17,17 +17,15 @@ html(lang="ru-RU")
 body
 
   .site__header
-    .main1
-      +header
-      +videoBg
-      +mainBlock
+    +header
+    +headerPaddingArea
 
-  .site__center.go_adr1
-    +serv
-    +about
-    +carousel
-    +powerSide
-    +contacts
+  .site__center
+    
+    +titleLine
+    +breadcrumbs
+    +intro
+    +content
     
   .site__footer
     +footer

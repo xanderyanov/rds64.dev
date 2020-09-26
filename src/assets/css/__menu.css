@@ -1,0 +1,68 @@
+.adaptiveMenu__area {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 1rem;
+  background: var(--bs-warning);
+  z-index: 5000;
+  display: none;
+}
+
+.adaptiveMenu__outer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.adaptiveMenu__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+  width: 2rem;
+  height: 2rem;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.adaptiveMenu__close i {
+  font-size: 1rem;
+  color: var(--bs-warning);
+}
+
+.adaptiveMenu__wrapper {
+  position: relative;
+}
+
+.adaptiveMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.adaptiveMenu li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.adaptiveMenu li:last-child {
+  margin-bottom: 0;
+}
+
+.adaptiveMenu li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #000;
+}
+
+.adaptiveMenu li.active a,
+.adaptiveMenu li a:hover {
+  text-decoration: underline;
+}

@@ -316,16 +316,17 @@
 .toTop {
   z-index: 2600;
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  opacity: 0.75;
+  width: 2rem;
+  height: 2rem;
+  left: 1rem;
+  bottom: 5rem;
+  opacity: 1;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  padding: 5px;
-  background: #be3f46;
+  background: var(--bs-warning);
+  border: 1px solid #fff;
 }
 
 .toTop:hover {
@@ -333,12 +334,12 @@
 }
 
 .toTop i {
-  font-size: 2rem;
-  color: #fff;
+  font-size: 1rem;
+  color: #000;
 }
 
 .breadcrumbs__area {
-  padding: 10px 0 10px;
+  padding: 1rem 0;
 }
 .breadcrumbs {
   display: block;
@@ -348,19 +349,19 @@
   align-items: center;
   flex-wrap: wrap;
   color: #000;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.2;
 }
 .breadcrumbs div:first-child {
-  margin: 0 5px 0 0;
+  margin: 0 0.3125rem 0 0;
 }
 .breadcrumbs div {
-  margin: 0 5px;
+  margin: 0 0.3125rem;
 }
 .breadcrumbs div a {
   color: #000;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.2;
   text-decoration: none;
@@ -368,12 +369,13 @@
   position: relative;
 }
 .breadcrumbs div a:hover {
-  color: var(--redFillhover);
+  text-decoration: underline;
 }
 
 .breadcrumbs div span {
-  color: var(--redFillhover);
-  font-size: 0.75rem;
+  color: #000;
+  /* color: var(--bs-warning); */
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.2;
   text-decoration: none;
