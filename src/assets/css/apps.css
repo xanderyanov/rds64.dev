@@ -30,6 +30,12 @@
 @import "__page.css";
 @import "__page-media.css";
 
+@import "__catalog.css";
+@import "__catalog-media.css";
+
+@import "__blog.css";
+@import "__blog-media.css";
+
 @import "__form.css";
 
 /* @import "__slider1.css";

@@ -25,116 +25,120 @@ mixin intro
         .intro__img
           img(src="assets/img/serv/01.jpg", alt="")
 
+mixin content_min
+  .content
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat totam laborum
+      | deserunt reiciendis pariatur tempora accusamus repudiandae molestias temporibus.
+
 mixin content
-  .content__outer
-    .content__area.w1
-      .content
-        p
-          | Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat totam laborum
-          | deserunt reiciendis pariatur tempora accusamus repudiandae molestias temporibus.
-        p
-          | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, animi?
-        h2 Заголовок h2
-        h3 Заголовок h3
-        h4 Заголовок h4
-        h5 Заголовок h5
-        h6 Заголовок h6
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at eaque eos error et. laborum minus natus necessitatibus veniam voluptatem?
-        p
-          | Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing elit</a> consectetur adipisicing elit. Dolorem dolores magni odio possimus, rem tempora!
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eaque labore laboriosam
-          | libero minima nisi officiis recusandae tempora tenetur voluptatem? Accusamus, aliquid at
-          | culpa itaque labore libero nostrum quod repellendus.
-        ul
-          li Lorem ipsum dolor.
-          li Lorem ipsum.
-          li Lorem ipsum <strong> dolor</strong> sit amet.
-          li
-            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa. Lorem ipsum
-            | dolor sit amet, consectetur adipisicing elit. Corporis, ipsa. Lorem ipsum dolor sit
-            | amet, consectetur adipisicing elit. Corporis, ipsa.
-          li Lorem.
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores magni odio
-          | possimus, rem tempora!
-        ol
-          li Lorem ipsum dolor.
-          li Lorem ipsum.
-          li
+  .content
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat totam laborum
+      | deserunt reiciendis pariatur tempora accusamus repudiandae molestias temporibus.
+    p
+      | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, animi?
+    h2 Заголовок h2
+    h3 Заголовок h3
+    h4 Заголовок h4
+    h5 Заголовок h5
+    h6 Заголовок h6
+    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at eaque eos error et. laborum minus natus necessitatibus veniam voluptatem?
+    p
+      | Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing elit</a> consectetur adipisicing elit. Dolorem dolores magni odio possimus, rem tempora!
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eaque labore laboriosam
+      | libero minima nisi officiis recusandae tempora tenetur voluptatem? Accusamus, aliquid at
+      | culpa itaque labore libero nostrum quod repellendus.
+    ul
+      li Lorem ipsum dolor.
+      li Lorem ipsum.
+      li Lorem ipsum <strong> dolor</strong> sit amet.
+      li
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa. Lorem ipsum
+        | dolor sit amet, consectetur adipisicing elit. Corporis, ipsa. Lorem ipsum dolor sit
+        | amet, consectetur adipisicing elit. Corporis, ipsa.
+      li Lorem.
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores magni odio
+      | possimus, rem tempora!
+    ol
+      li Lorem ipsum dolor.
+      li Lorem ipsum.
+      li
+        | Lorem ipsum 
+        strong dolor
+        |  sit amet.
+      li
+        | Lorem ipsum 
+        strong dolor
+        |  sit amet, consectetur adipisicing elit. Corporis,
+        |                                 ipsa.
+      li Lorem.
+    h3 Таблица с принудительной шириной width="100%"
+    table(width='100%')
+      tbody
+        tr
+          td Строка 1 столбец 1
+          td
             | Lorem ipsum 
             strong dolor
             |  sit amet.
-          li
-            | Lorem ipsum 
-            strong dolor
-            |  sit amet, consectetur adipisicing elit. Corporis,
-            |                                 ipsa.
-          li Lorem.
-        h3 Таблица с принудительной шириной width="100%"
-        table(width='100%')
-          tbody
-            tr
-              td Строка 1 столбец 1
-              td
-                | Lorem ipsum 
+          td
+            ul
+              li
+                | Lorem ipsum
                 strong dolor
                 |  sit amet.
-              td
-                ul
-                  li
-                    | Lorem ipsum
-                    strong dolor
-                    |  sit amet.
-                  li
-                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa.
-                  li Lorem.
-            tr
-              td Строка 2 столбец 1
-              td
-                | Строка 2 
-                a(href='/') ссылка в таблице
-              td Строка 2 столбец 3
-            tr
-              td
-                ol
-                  li Lorem ipsum dolor.
-                  li Lorem ipsum.
-                  li
-                    | Lorem ipsum
-                    strong dolor
-                    |  sit amet.
-                  li Lorem.
-              td Строка 3 столбец 2
-              td Строка 3 столбец 3
-        p
-          | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur enim est,
-          | eveniet labore molestiae necessitatibus provident, quidem recusandae similique soluta
-          | voluptates. Architecto corporis cum dolor dolores eos, esse id iste labore minima nobis
-          | quae, quaerat quisquam sed ut voluptatum? Alias eaque eligendi hic in numquam perspiciatis
-          | possimus recusandae suscipit.
-        blockquote
-          | Текст цитаты Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus
-          | deleniti dolor doloribus eaque molestiae placeat, possimus saepe! Aut corporis cupiditate
-          | delectus dolor eum laudantium magnam minus ullam voluptatibus. Architecto.
-        h3 Таблица с стилем .clear в свойствах
-        table.clear
-          tbody
-            tr
-              td Строка 1 столбец 1
-              td Строка 1 столбец 2
-              td Строка 1 столбец 3
-            tr
-              td Строка 2 столбец 1
-              td Строка 2 столбец 2
-              td Строка 2 столбец 3
-            tr
-              td Строка 3 столбец 1
-              td Строка 3 столбец 2
-              td Строка 3 столбец 3
-
-      +videogallery
-      +gallery
+              li
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa.
+              li Lorem.
+        tr
+          td Строка 2 столбец 1
+          td
+            | Строка 2 
+            a(href='/') ссылка в таблице
+          td Строка 2 столбец 3
+        tr
+          td
+            ol
+              li Lorem ipsum dolor.
+              li Lorem ipsum.
+              li
+                | Lorem ipsum
+                strong dolor
+                |  sit amet.
+              li Lorem.
+          td Строка 3 столбец 2
+          td Строка 3 столбец 3
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur enim est,
+      | eveniet labore molestiae necessitatibus provident, quidem recusandae similique soluta
+      | voluptates. Architecto corporis cum dolor dolores eos, esse id iste labore minima nobis
+      | quae, quaerat quisquam sed ut voluptatum? Alias eaque eligendi hic in numquam perspiciatis
+      | possimus recusandae suscipit.
+    blockquote
+      | Текст цитаты Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus
+      | deleniti dolor doloribus eaque molestiae placeat, possimus saepe! Aut corporis cupiditate
+      | delectus dolor eum laudantium magnam minus ullam voluptatibus. Architecto.
+    h3 Таблица с стилем .clear в свойствах
+    table.clear
+      tbody
+        tr
+          td Строка 1 столбец 1
+          td Строка 1 столбец 2
+          td Строка 1 столбец 3
+        tr
+          td Строка 2 столбец 1
+          td Строка 2 столбец 2
+          td Строка 2 столбец 3
+        tr
+          td Строка 3 столбец 1
+          td Строка 3 столбец 2
+          td Строка 3 столбец 3
+  +gallery
+  +videogallery
+      
 
 
 mixin videogallery

@@ -1,10 +1,11 @@
-- var pageTitle = 'Текстовая страница'
+- var pageTitle = 'Контакты'
 - var seoKeywords = 'Ключевые слова для страницы'
 - var seoDesc = 'Сео описание для страницы'
 
 include __const
 include __menu
 include __header
+include __mainPage
 include __page
 include __footer
 
@@ -24,10 +25,11 @@ body
     
     +titleLine
     +breadcrumbs
-    +intro
     .content__outer
       .content__area.w1
-        +content
+        +content_min
+        .line1
+    +contacts
     
   .site__footer
     +footer
